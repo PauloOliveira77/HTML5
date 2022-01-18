@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <img src="" alt="">
+
+    <!--Tag novo <picture> permite criar varias fontes-->
+    <!--Tag dentro da picture <source media type> para selecionar quais imagens serão carregadas-->    
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem Flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir um audio</p>
+    <audio src="midia/ServiceTouch.mp3" autoplay controls></audio>
+
+    <h1>Videos em HTML</h1>
+
+    <video src="video/videohtml.m4v" autoplay controls height="300"></video>
+
+    
+</body>
+</html>

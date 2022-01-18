@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body{
+    background-color: #faebd7;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    h1{
+        color: #1F6891;
+    }
+
+    h1#principal{
+        
+        font-weight: 900;
+        font-style: oblique;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 3em ;
+        text-align: center;
+        background-color: #FFC982;
+    }
+
+    h2{
+        color: #14415c;
+    }
+
+    .inicio{
+        background-color: yellow;
+    }
+    .meio{
+        background-color: olivedrab;
+    }
+    .fim{
+        background-color: orangered;
+    }
+
+    p{
+        text-align: justify;
+        text-indent: 15px;
+    }

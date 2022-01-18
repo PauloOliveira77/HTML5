@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Icone/gravata2.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova HTML 5</title>
+</head>
+<body>
+    <h1>Inicio</h1>
+    <hr>
+    <h2>01 - Capitulo 1</h2>
+    <hr>
+    <h3>01.01 - Começando com HTML 5</h3>
+
+    <p>Para utilizar comandos &lt;em um comando&gt; usamos estes caracteres.</p>
+
+    <p>Também utilizamos <strong>conjunto de caracteres</strong> para inserir caracteres especiais:</p>
+    &reg;<br>
+    &copy;<br>
+    &trade;<br>
+
+    <p>Para inserir emojis <em>é necessário ir no site</em> e procurar o codigo referente a cada emoji (&#x + o codigo do emoji).</p>
+    &#x1F602;
+    &#x1F60E;
+
+    <p>Para inserir <mark style="background-color: #d9fd0e;">imagens dentro do HTML 5</mark> temos que ter atenção ao tamanho da imagem.</p>
+    <img src="Imagens/fusca.png" alt="Imagem do Fusca de Teste" height="100">
+    <img src="https://cdn.pixabay.com/photo/2014/04/02/17/00/burger-307648_960_720.png" alt="Lanche" height="100">
+
+    <h3>01.02 - Formatações no HTML 5</h3>
+
+    <p style="text-align: justify;">Seguem alguns exemplos de formatação em HTML 5.</p>
+
+    <p>Para utilizar negrito <strong>podemos utilizar esta tag</strong> que o texto ficara em negrito.</p>
+
+    <p>Para utilizar o itálico usamos a <em>tag em para o</em> texto ficar em itálico.</p>
+
+    <p>Para sublinhado <u>usamos a tag u</u> para sublinhar o texto.</p>
+
+    <p>Para marcar uma parte em destaque <mark>usamos a tag mark</mark> para dar o destaque.</p>
+
+    <p>Se quisermos um texto aumentado <big>usamos esta tag para dar o destaque</big> mas lembrando que ela logo cairá em desuso.</p>
+
+    <p>Já para um texto menor <small>usamos a tag small em uma parte</small> do texto para diminuir.</p>
+
+    <p>Para um texto riscado <del>usamos a tag del</del> que pode indicar um texto deletado.</p>
+
+    <p>Para um texto <sup>sobrescrito</sup> usamos esta tag sup, como por exemplo em fórmulas, X<sup>2</sup>+2 = 6.</p>
+
+    <p>Ao contrairo temos <sub>subscrito</sub> para textos na parte inferior, como exemplo H<sub>2</sub>O.</p>
+
+    <p>Para uma pagina que exista uma linha de programa, podemos usar uma tag que represente que a linha é uma linguagem de programação.</p>
+
+    <p><code>nome = str(input("Digite seu nome: ")</code></p>
+
+    <p>Ja para uma sequencia de comandos, com os devidos alinhamentos podemos utlizar de outra maneira.</p>
+    <pre>
+        <code>
+            num = int(input("Digite um numero:"))
+            if num % 2 = 0
+                print("Seu numero é par.")
+            else:
+                print("Seu numero é impar.")
+            print("Fim do Programa")
+        </code>
+    </pre>
+
+    <p>Para marcar uma parte como citação em um site usamos:</p>
+    <p>Segundo Professor Guanabara:</p>
+    <blockquote>
+        "Seu nao fizermos o primeiro programa com "Olá, Mundo!" nao iremos aprender"
+    </blockquote>
+
+    <p>Para informar ou explicar o significado de uma abreviação utilizamos a tag (abbr), por exemplo: <abbr title="Kentuck Frited Chicken">KFC</abbr> ou <abbr title="Cadastro de Pessoa Física">CPF</abbr></p>
+
+    <p>Para criarmos listas dentro do HTML temos algumas formas:</p>
+    <p>Listas Ordenadas que possuem uma sequência.</p>
+    <ol type="1">
+        <li>Ligar o aparelho</li>
+        <li>Sintonizar a frequência</li>
+        <li>Verificar o ruído</li>
+        <li>Responder os chamados</li>
+        <li>Encerrar o contato</li>
+    </ol>
+
+    <p>Podemos criar tambem listas sem sequencia definida:</p>
+    <ul type="square">
+        <li>Acoradar</li>
+        <li>Levantar</li>
+        <li>Lavar o rosto</li>
+        <li>Tomar café</li>
+            <ol>
+                <li>Fazer o Cafe</li>
+                <li>Esquentar o Leite</li>
+                <li>Esquentar o Pão</li>
+            </ol>
+        <li>Escovar os dentes</li>
+    </ul>
+
+    <p>Existem também as listas de definições:</p>
+    <dl>
+        <dt>Materiais:</dt>
+        <dd>Cimento, Areia, Pedra, Tinta, Bloco</dd>
+        <dt>Equipamentos:</dt>
+        <dd>Furadeira, Serra, Esmeril, Pá, Lixadeira</dd>
+    </dl>
+
+    <hr>
+    <h2>02 - Capitulo 2</h2>
+    <hr>
+    <h3>02.01 - Links</h3>
+
+    <p>Para colocarmos links externos nos sites usamos o seguinte:</p>
+    <p>Acesse minha pagina em <a href="http://servicetouch.com" target="_blank" rel="external">ServiceTouch.com</a></p>
+
+    <p>Para páginas internas utilizamos o mesmo modelo:</p>
+    <p>Voce pode acessar a nossa pagina de notícias <a href="pagina002.html" target="_self" rel="next">clicando aqui!!!</a></p>
+
+    <h3>02.02 - Midias</h3>
+
+    <p>Para inserir uma imagem:</p>
+    <img src="Imagens/fusca.png" height="200" alt="Fusca Imagem">
+
+    <p>Para inserir uma imagem flexível:</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/stevejobs_p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/stevejobs_m.png" type="image/png">
+        <img src="Imagens/stevejobs_g.png" alt="Stevie Jobs">
+    </picture>
+    
+    <p>Para Inserir um Video Interno</p>
+    <video src="Video/VideoOfereça.mp4" poster="Imagens/servicetouch.png" controls autoplay loop width="560" height="315" ></video>
+
+    <p>Para inserir videos externos</p>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/-0CgGstWMcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
+
+</body>
+</html>
