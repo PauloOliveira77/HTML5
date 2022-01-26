@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela 002</title>
+    <style>
+       
+
+        .numero{
+            text-align: right;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: rgb(206, 206, 207);
+        }
+
+        tbody > tr:nth-child(even) {
+            font-style: italic;
+        }
+        
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead{
+            background-color: gray;
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tfoot{
+            background-color: rgb(253, 253, 62);
+        }
+        caption{
+            text-align: center;
+            font-size: x-large;
+            font-weight: 700;
+            padding: 15px;
+            background-color: rgb(189, 184, 184);
+            border: 1px solid black;
+        }
+
+
+
+
+    </style>
+</head>
+<body>
+    <h1>tabelas grandes <br>
+    estrutura de tabela</h1>
+
+    <table>
+        <caption>População dos Estados Brasileiros</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 658 258</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 568 125</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">5 658 698</td>
+            </tr>
+            <td>Sao Paulo</td>
+            <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 658 258</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 568 125</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">5 658 698</td>
+            </tr>                <td>Sao Paulo</td>
+            <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 658 258</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 568 125</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">5 658 698</td>
+            </tr>
+            <td>Sao Paulo</td>
+            <td class="numero">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 658 258</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 568 125</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="numero">5 658 698</td>
+            </tr>
+            <td>Sao Paulo</td>
+            <td class="numero">45 919 049</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="numero">17 658 258</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">21 568 125</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="numero">5 658 698</td>
+        </tr>                
+        <td>Sao Paulo</td>
+        <td class="numero">45 919 049</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="numero">17 658 258</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">21 568 125</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="numero">5 658 698</td>
+        </tr>
+        <td>Sao Paulo</td>
+        <td class="numero">45 919 049</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="numero">17 658 258</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">21 568 125</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="numero">5 658 698</td>
+        </tr>
+        <td>Sao Paulo</td>
+        <td class="numero">45 919 049</td>
+        </tr>
+        <tr>
+            <td>Rio de Janeiro</td>
+            <td class="numero">17 658 258</td>
+        </tr>
+        <tr>
+            <td>Minas Gerais</td>
+            <td class="numero">21 568 125</td>
+        </tr>
+        <tr>
+            <td>Paraná</td>
+            <td class="numero">5 658 698</td>
+        </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="numero"><strong>98 325 327</strong></td>
+            </tr>
+        </tfoot>
+
+    </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, corporis delectus distinctio pariatur perferendis architecto. Ut culpa, possimus aliquam eaque, cumque sint quam fuga quo dolores dolore nobis eum veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio tempore excepturi laboriosam veritatis error aspernatur incidunt aliquam, ipsa recusandae corrupti dignissimos laborum quos rem nostrum, repudiandae minima sunt illum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita facere iste cum quod velit! Possimus quibusdam repellat blanditiis nihil dicta vel asperiores officiis accusamus quod similique maiores, vitae consequuntur necessitatibus?</p>
+
+    
+</body>
+</html>
